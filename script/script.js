@@ -68,7 +68,7 @@ class MemoryGame {
 
 const game = new MemoryGame;
 game.rearrangeCards();
-alert("Найди 10 оттенков Саши!");
+//alert("Найди 10 оттенков Саши!");
 game.cards.forEach(card => {
 	card.addEventListener('click', game.flip.bind(game, card));
 });
